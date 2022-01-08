@@ -61,10 +61,7 @@ set osd_mah_drawn_pos = 234
 set osd_motor_diag_pos = 234
 set osd_craft_name_pos = 14361
 set osd_display_name_pos = 234
-set osd_gps_speed_pos = 14353
-set osd_gps_lon_pos = 234
-set osd_gps_lat_pos = 234
-set osd_gps_sats_pos = 14336
+
 set osd_home_dir_pos = 14350
 set osd_home_dist_pos = 14344
 set osd_flight_dist_pos = 234
@@ -134,3 +131,17 @@ set osd_displayport_device = AUTO
 set osd_rcchannels = -1,-1,-1,-1
 set osd_camera_frame_width = 24
 set osd_camera_frame_height = 11
+
+#$ OPTION BEGIN (CHECKED): No GPS
+set osd_gps_speed_pos = 17
+set osd_gps_lon_pos = 234
+set osd_gps_lat_pos = 234
+set osd_gps_sats_pos = 0
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): GPS
+set osd_gps_speed_pos = 14353
+set osd_gps_lon_pos = 234
+set osd_gps_lat_pos = 234
+set osd_gps_sats_pos = 14336
+#$ OPTION END

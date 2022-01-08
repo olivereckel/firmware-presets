@@ -812,8 +812,17 @@
     },
     {
       "fullPath": "presets/4.3/osd/subz3r0_osd.txt",
-      "hash": "1299e039a334df6227219b1274af8bcf6d76f9e8ab12cd3726ab033306bed5e8",
-      "options": [],
+      "hash": "d991b117a4e87f6cbdf77a9db84964cea44b5acb0cf8fb18f9e5ad65a8af815b",
+      "options": [
+        {
+          "name": "No GPS",
+          "checked": true
+        },
+        {
+          "name": "GPS",
+          "checked": false
+        }
+      ],
       "title": "Subz3r0 Default OSD Settings",
       "firmware_version": [
         "4.3"
