@@ -1,10 +1,10 @@
-#$ TITLE: Default 4.3 OSD settings
+#$ TITLE: Subz3r0 Default OSD Settings
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: OSD
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: defaults, reset, OSD
 #$ AUTHOR: Subz3r0
-#$ DESCRIPTION: Resets the OSD values back to Betaflight 4.3 defaults
+#$ DESCRIPTION: Subz3r0 Default OSD Settings with GPS
 
 set osd_units = METRIC
 set osd_warn_arming_disable = ON
@@ -44,12 +44,11 @@ set osd_tim2 = 2561
 set osd_vbat_pos = 234
 set osd_rssi_pos = 234
 set osd_link_quality_pos = 234
-set osd_link_tx_power_pos = 234
 set osd_rssi_dbm_pos = 234
 set osd_tim_1_pos = 234
 set osd_tim_2_pos = 234
 set osd_remaining_time_estimate_pos = 234
-set osd_flymode_pos = 234
+set osd_flymode_pos = 14361
 set osd_anti_gravity_pos = 234
 set osd_g_force_pos = 234
 set osd_throttle_pos = 234
@@ -57,17 +56,17 @@ set osd_vtx_channel_pos = 234
 set osd_crosshairs_pos = 205
 set osd_ah_sbar_pos = 206
 set osd_ah_pos = 78
-set osd_current_pos = 234
+set osd_current_pos = 14826
 set osd_mah_drawn_pos = 234
 set osd_motor_diag_pos = 234
-set osd_craft_name_pos = 234
+set osd_craft_name_pos = 14361
 set osd_display_name_pos = 234
-set osd_gps_speed_pos = 234
+set osd_gps_speed_pos = 14353
 set osd_gps_lon_pos = 234
 set osd_gps_lat_pos = 234
-set osd_gps_sats_pos = 234
-set osd_home_dir_pos = 234
-set osd_home_dist_pos = 234
+set osd_gps_sats_pos = 14336
+set osd_home_dir_pos = 14350
+set osd_home_dist_pos = 14344
 set osd_flight_dist_pos = 234
 set osd_compass_bar_pos = 234
 set osd_altitude_pos = 234
@@ -78,13 +77,12 @@ set osd_debug_pos = 234
 set osd_power_pos = 234
 set osd_pidrate_profile_pos = 234
 set osd_warnings_pos = 14665
-set osd_avg_cell_voltage_pos = 234
+set osd_avg_cell_voltage_pos = 14831
 set osd_pit_ang_pos = 234
 set osd_rol_ang_pos = 234
-set osd_battery_usage_pos = 234
+set osd_battery_usage_pos = 490
 set osd_disarmed_pos = 234
 set osd_nheading_pos = 234
-set osd_up_down_reference_pos = 205
 set osd_nvario_pos = 234
 set osd_esc_tmp_pos = 234
 set osd_esc_rpm_pos = 234
@@ -103,7 +101,6 @@ set osd_profile_name_pos = 234
 set osd_rcchannels_pos = 234
 set osd_camera_frame_pos = 35
 set osd_efficiency_pos = 234
-set osd_total_flights_pos = 234
 set osd_stat_rtc_date_time = OFF
 set osd_stat_tim_1 = OFF
 set osd_stat_tim_2 = ON
@@ -137,6 +134,3 @@ set osd_displayport_device = AUTO
 set osd_rcchannels = -1,-1,-1,-1
 set osd_camera_frame_width = 24
 set osd_camera_frame_height = 11
-set osd_stat_avg_cell_value = OFF
-set osd_framerate_hz = 12
-set osd_menu_background = TRANSPARENT

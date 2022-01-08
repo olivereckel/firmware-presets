@@ -812,9 +812,9 @@
     },
     {
       "fullPath": "presets/4.3/osd/subz3r0_osd.txt",
-      "hash": "12491ec8a616a16c9779fe54471813bdeb06bdfa1476faa65e6334ffcfcd3d6d",
+      "hash": "1299e039a334df6227219b1274af8bcf6d76f9e8ab12cd3726ab033306bed5e8",
       "options": [],
-      "title": "Default 4.3 OSD settings",
+      "title": "Subz3r0 Default OSD Settings",
       "firmware_version": [
         "4.3"
       ],
@@ -827,7 +827,7 @@
       ],
       "author": "Subz3r0",
       "description": [
-        "Resets the OSD values back to Betaflight 4.3 defaults"
+        "Subz3r0 Default OSD Settings with GPS"
       ]
     },
     {
