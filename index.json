@@ -1511,9 +1511,9 @@
     },
     {
       "fullPath": "presets/4.3/rates/subz3r0_rates.txt",
-      "hash": "b68199fb002159291ba6f036d215df9f66dbee0d7610582160ac4e6c8ab9f6c1",
+      "hash": "4b95654bae3437d467a750999742394a8b4b19a324ef4ed7b89540f382426b94",
       "options": [],
-      "title": "subz3r0 rates",
+      "title": "Subz3r0 Default Rates",
       "firmware_version": [
         "4.3"
       ],
@@ -1526,7 +1526,7 @@
       ],
       "author": "Subz3r0",
       "description": [
-        "subz3r0 Betaflight rates - ACTUAL",
+        "Subz3r0 Default Rates - ACTUAL",
         "Will be applied for the currently selected rate profile",
         "TPA values are not included",
         "Throttle limit and curve are not included"
