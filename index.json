@@ -840,6 +840,24 @@
       ]
     },
     {
+      "fullPath": "presets/4.3/other/badger.txt",
+      "hash": "9bcc0c22b5f7550548e0b5da3f50e8399551355e0ab6ed288f365a364d2de4c5",
+      "options": [],
+      "title": "Badger Default",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "OTHER",
+      "status": "COMMUNITY",
+      "keywords": [
+        "defaults"
+      ],
+      "author": "Subz3r0",
+      "description": [
+        "This is the default setup for Badger"
+      ]
+    },
+    {
       "fullPath": "presets/4.3/other/blackbox_disable.txt",
       "hash": "71fc4b4cc44366fbbd91ad1aaf882cddd103fae91c4230988a5ebbb67b6bac5d",
       "options": [
@@ -912,6 +930,24 @@
       "discussion": "https://github.com/betaflight/firmware-presets/pull/110",
       "include": [
         "presets/4.3/other/reset_blackbox.txt"
+      ]
+    },
+    {
+      "fullPath": "presets/4.3/other/chameleon.txt",
+      "hash": "06793a712c314ddeefc64218cd521e513a56c478f00257c867182b7d56f75fb2",
+      "options": [],
+      "title": "Chameleon Default",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "OTHER",
+      "status": "COMMUNITY",
+      "keywords": [
+        "defaults"
+      ],
+      "author": "Subz3r0",
+      "description": [
+        "This is the default setup for Chameleon"
       ]
     },
     {
