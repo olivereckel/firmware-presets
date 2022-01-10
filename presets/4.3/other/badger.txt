@@ -8,10 +8,10 @@
 
 # resources
 resource BEEPER 1 C15
-resource MOTOR 1 C08
-resource MOTOR 2 C06
-resource MOTOR 3 C09
-resource MOTOR 4 C07
+resource MOTOR 1 C07
+resource MOTOR 2 C09
+resource MOTOR 3 C06
+resource MOTOR 4 C08
 resource MOTOR 5 B06
 resource MOTOR 6 B07
 resource MOTOR 7 B01
@@ -36,7 +36,7 @@ resource PWM 8 NONE
 resource LED_STRIP 1 A01
 resource SERIAL_TX 1 A09
 resource SERIAL_TX 2 A02
-resource SERIAL_TX 3 B10
+resource SERIAL_TX 3 NONE
 resource SERIAL_TX 4 C10
 resource SERIAL_TX 5 C12
 resource SERIAL_TX 6 NONE
@@ -48,7 +48,7 @@ resource SERIAL_TX 11 NONE
 resource SERIAL_TX 12 NONE
 resource SERIAL_RX 1 A10
 resource SERIAL_RX 2 A03
-resource SERIAL_RX 3 B11
+resource SERIAL_RX 3 NONE
 resource SERIAL_RX 4 C11
 resource SERIAL_RX 5 D02
 resource SERIAL_RX 6 NONE
@@ -59,11 +59,11 @@ resource SERIAL_RX 10 NONE
 resource SERIAL_RX 11 NONE
 resource SERIAL_RX 12 NONE
 resource I2C_SCL 1 NONE
-resource I2C_SCL 2 B10
+resource I2C_SCL 2 NONE
 resource I2C_SCL 3 NONE
 resource I2C_SCL 4 NONE
 resource I2C_SDA 1 NONE
-resource I2C_SDA 2 B11
+resource I2C_SDA 2 NONE
 resource I2C_SDA 3 NONE
 resource I2C_SDA 4 NONE
 resource LED 1 C04
@@ -95,9 +95,9 @@ resource COMPASS_CS 1 NONE
 resource COMPASS_EXTI 1 NONE
 resource SDCARD_CS 1 NONE
 resource SDCARD_DETECT 1 NONE
-resource PINIO 1 C13
-resource PINIO 2 C14
-resource PINIO 3 B08
+resource PINIO 1 B10
+resource PINIO 2 B11
+resource PINIO 3 NONE
 resource PINIO 4 NONE
 resource USB_MSC_PIN 1 NONE
 resource FLASH_CS 1 B09
@@ -237,10 +237,10 @@ feature ANTI_GRAVITY
 
 # serial
 serial 20 1 115200 57600 0 115200
-serial 0 0 115200 57600 0 115200
-serial 1 64 115200 57600 0 115200
+serial 0 64 115200 57600 0 115200
+serial 1 1 115200 57600 0 115200
 serial 2 0 115200 57600 0 115200
-serial 3 0 115200 57600 0 115200
+serial 3 2 115200 115200 0 115200
 serial 4 0 115200 57600 0 115200
 
 # mixer
@@ -399,11 +399,11 @@ mode_color 6 10 0
 mode_color 7 0 3
 
 # aux
-aux 0 0 0 900 900 0 0
-aux 1 0 0 900 900 0 0
-aux 2 0 0 900 900 0 0
-aux 3 0 0 900 900 0 0
-aux 4 0 0 900 900 0 0
+aux 0 0 0 1775 2100 0 0
+aux 1 35 1 1800 2100 0 0
+aux 2 36 3 1800 2100 0 0
+aux 3 40 2 1650 2100 0 0
+aux 4 41 2 900 1350 0 0
 aux 5 0 0 900 900 0 0
 aux 6 0 0 900 900 0 0
 aux 7 0 0 900 900 0 0
