@@ -951,6 +951,24 @@
       ]
     },
     {
+      "fullPath": "presets/4.3/other/chameleon_karate.txt",
+      "hash": "cc2e7174d2b7119e8e93e6300d3e44547a1b0e89d5f92fd8fa84c0ed74a0e6f3",
+      "options": [],
+      "title": "Chameleon Karate",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "OTHER",
+      "status": "COMMUNITY",
+      "keywords": [
+        "Karate"
+      ],
+      "author": "Subz3r0",
+      "description": [
+        "This is the karate setup for Chameleon"
+      ]
+    },
+    {
       "fullPath": "presets/4.3/other/reset_blackbox.txt",
       "hash": "30dc088a9a24dbbbea774d4d23eb29be85da9f4a78844e23e8b4ae7ff49bd090",
       "options": [],
